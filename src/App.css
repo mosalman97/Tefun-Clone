@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+  }
+ol, ul {
+	list-style: none;
+}
+@font-face {
+    font-family: 'gorditamedium_italic';
+    src: url('./Assets/Fonts/gordita_medium_italic-webfont.woff2') format('woff2'),
+         url('./Assets/Fonts/gordita_medium_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('./Assets/Fonts/gordita_medium-webfont.woff2') format('woff2'),
+         url('./Assets/Fonts/gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gorditaregular_italic';
+    src: url('./Assets/Fonts/gordita_regular_italic-webfont.woff2') format('woff2'),
+         url('./Assets/Fonts/gordita_regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('./Assets/Fonts/gordita_regular-webfont.woff2') format('woff2'),
+         url('./Assets/Fonts/gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.activebackground{
+	box-shadow: rgb(0 0 0 / 3%) 0px 16px 24px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
+.spotlight::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 2px;
+    bottom: 5%;
+    z-index: -1;
+    background: url(https://s3.ap-south-1.amazonaws.com/talrop.com-react-assets-bucket/tefun/28-01-2022/elipse.svg) no-repeat;
+}
+span.Tefun{
+    color:black;
+    font-size: 40px;
+}
+b{
+    font-weight:700;
+}
+a.mobile{
+    color:rgb(15, 167, 111);
+    /* font-weight: 600; */
+    font-family: gorditamedium;
+
+}
