@@ -6,6 +6,7 @@ import Newtech from './Components/Newtech';
 import Programdetails from './Components/Programdetails';
 import Spotlight from './Components/Spotlight';
 import Wishsection from './Components/Wishsection';
+import Tefunprogram from './Components/Tefunprogram';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Newtech/>
       <Certificatemodel/>
       <Programdetails/>
+      <Tefunprogram/>
     </div>
   );
 }
