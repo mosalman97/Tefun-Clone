@@ -20,7 +20,6 @@ function App() {
       <Newtech/>
       <Certificatemodel/>
       <Programdetails/>
-      <h1>hello</h1>
     </div>
   );
 }
